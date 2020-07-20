@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Grid</title>
+    <style>
+        .grid{
+            display:grid;
+            grid-template-columns: 70% 30%;
+            /* grid-column-gap: 1em;
+            grid-row-gap: 1em;   */
+            grid-gap: 1em; 
+                
+  }
+        .grid > div{
+            background: #eee;
+            padding: 1em;
+        }
+        .grid > div:nth-child(odd){
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+  <div class="grid">
+      <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, cumque nemo id est commodi nesciunt eaque aliquam, mollitia labore dolore sed dicta magni illo officiis, eos consequuntur alias ipsam! Delectus sunt, minima iure maxime obcaecati cumque quia nihil accusamus repellendus quo quae aliquid laudantium est earum rem officiis non ea animi! Aliquid quis expedita animi obcaecati architecto ipsa ab velit ipsam impedit saepe ratione eveniet ipsum assumenda amet, quo numquam fuga natus cupiditate. Ad, hic. Corrupti culpa sint quia iusto.</div>
+
+  <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus architecto amet alias impedit! Recusandae obcaecati mollitia sequi animi unde aliquid pariatur facere id tempora laboriosam, praesentium cum accusantium esse quod?</div> 
+  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, cumque nemo id est commodi nesciunt eaque aliquam, mollitia labore dolore sed dicta magni illo officiis, eos consequuntur alias ipsam! Delectus sunt, minima iure maxime obcaecati cumque quia nihil accusamus repellendus quo quae aliquid laudantium est earum rem officiis non ea animi! Aliquid quis expedita animi obcaecati architecto ipsa ab velit ipsam impedit saepe ratione eveniet ipsum assumenda amet, quo numquam fuga natus cupiditate. Ad, hic. Corrupti culpa sint quia iusto.</div>
+
+  <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus architecto amet alias impedit! Recusandae obcaecati mollitia sequi animi unde aliquid pariatur facere id tempora laboriosam, praesentium cum accusantium esse quod?</div> 
+
+</div>
+</body>
+</html>
